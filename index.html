@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="NavBar">
+        <a href="#book_section">Books </a>
+        <a href="#register_section">Register</a>
+      </div>
+    <div id="content">
+      <h2 id="book_section">Books</h2>
+      <table>
+           <thead>
+               <tr>
+                <th>Book ID</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre </th>
+                <th>Availability</th>
+               </tr>
+           </thead>
+           <tbody>
+                 <tr>
+                    <td>1</td>
+                    <td>
+                        <table>
+                            <tr><td class="noborder"><a href="#">The Adventures of Tom Sawyer</a></td></tr>
+                            <tr><td>Publication Date:2000</td></tr>
+                            <tr><td>Page Count:250</td></tr>
+                            <tr><td>ISBN:1234567890123</td></tr>
+                        </table>
+                    </td>
+                    <td>Mark Twain</td>
+                    <td>Genre 1</td>
+                    <td>Availabe</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <table>
+                            <tr><td class="noborder"><a href="#">Alice in Wonderland</a></td></tr>
+                            <tr><td>Publication Date:2005</td></tr>
+                            <tr><td>Page Count:300</td></tr>
+                            <tr><td>ISBN:1234567890456</td></tr>
+                        </table>
+                    </td>
+                    <td>Lewis Carroll</td>
+                    <td>Genre 2</td>
+                    <td>Not Availabe</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <table>
+                            <tr><td class="noborder"><a href="#">Gulliver’s Travels</a></td></tr>
+                            <tr><td>Publication Date:2010</td></tr>
+                            <tr><td>Page Count:350</td></tr>
+                            <tr><td>ISBN:1234567890789</td></tr>
+                        </table>
+                    </td>
+                    <td>Jonathan Swift</td>
+                    <td>Genre 3</td>
+                    <td>Availabe</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>
+                        <table>
+                            <tr><td class="noborder"><a href="#">Oliver Twist</a></td></tr>
+                            <tr><td>Publication Date:2011</td></tr>
+                            <tr><td>Page Count:400</td></tr>
+                            <tr><td>ISBN:1234567890132</td></tr>
+                        </table>
+                    </td>
+                    <td>Charles Dickens</td>
+                    <td>Genre 4</td>
+                    <td>Availabe</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>
+                        <table>
+                            <tr><td class="noborder"><a href="#">Black Beauty</a></td></tr>
+                            <tr><td>Publication Date:1989</td></tr>
+                            <tr><td>Page Count:320</td></tr>
+                            <tr><td>ISBN:1234567890134</td></tr>
+                        </table>
+                    </td>
+                    <td>Anna Sewell</td>
+                    <td>Genre 5</td>
+                    <td> Not Availabe</td>
+                </tr>
+           </tbody>
+      </table>
+      <h2 id="register_section">Register</h2>
+      <div id="register">
+        <form id="my-form" method="post">
+            <div>
+                <label for="firstname">First Name</label>
+                <div><input type="text" id="firstname" required></div>
+            </div>
+            <div>
+                <label for="lastname">Last Name</label>
+                <div><input type="text" id="lastname" required></div>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <div><input type="email" id="email" required></div>
+            </div>
+            <div>
+                <label for="dob">Date of Birth</label>
+                <div><input type="date" id="dob" required></div>
+            </div>
+            <div>
+                <label for="age">Age</label>
+                <div><input type="number" id="age"  min="5" max="100" required></div>
+            </div>
+            <div>
+                <label for="pswd">Password</label>
+                <div><input type="password" id="pswd" required></div>
+            </div>
+            <div>
+                <label for="cpswd">Confirm Password</label>
+                <div><input type="password"id="cpswd" required></div>
+            </div>
+            <div>
+                <div>
+                    <button type="register">Register</button>
+                </div>
+            </div>
+        </form>
+        </div>
+        </div>
+</body>
+</html>
